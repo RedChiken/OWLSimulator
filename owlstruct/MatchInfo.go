@@ -1,6 +1,8 @@
 package owlstruct
 
 type MatchInfo struct {
+	matchdate *Date
+	homeStand *TeamName
 	home      *TeamName
 	away      *TeamName
 	homeScore uint32
